@@ -160,7 +160,7 @@ class StudentManagerApp:
         heading_label = tk.Label(self.master, 
                                  text="Student Management System", 
                                  font=('Helvetica', 16, 'bold'), 
-                                 bg="#F3F029", # Dark blue background
+                                 bg='#3949AB', # Dark blue background
                                  fg='white', 
                                  pady=10)
         heading_label.pack(fill='x', padx=0, pady=(0, 10))
